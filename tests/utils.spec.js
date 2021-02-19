@@ -22,7 +22,7 @@ describe('Utils', () => {
       it('returned string is formatted correctly', async () => {
         expect(sayHelloTo(testCat)).toEqual('Hello Clawdia');
       });
-      it('returned string is formatted correctly', async () => {
+      it('returns the actual username of the passed-in cat', async () => {
         expect(sayHelloTo(testCatTwo)).toEqual('Hello FuzzBall');
       });
     });

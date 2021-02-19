@@ -9,8 +9,8 @@
     "start": "node index.js",
     "test": "jest  --runInBand --verbose",
     "test:watch": "jest --watchAll --runInBand --verbose",
-    "test:watch:db": "jest --watchAll db",
-    "test:watch:api": "jest --watchAll api"
+    "test:watch:db": "jest --watchAll --runInBand --verbose db",
+    "test:watch:api": "jest --watchAll --runInBand --verbose api"
   },
   "repository": {
     "type": "git",
